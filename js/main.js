@@ -1,6 +1,12 @@
-const title = document.querySelector(".card-content h6");
-const artist = document.querySelector(".artist");
-const audio = document.querySelector("audio");
+const player = {
+    title: document.querySelector(".card-content h6"),
+    artist: document.querySelector(".artist"),
+    audio: document.querySelector("audio"),
+
+}
+
+
+
 
 const data ={
     title:"Como começei a programar | Por que criamos a Rocketseat | Nossa Stack",
