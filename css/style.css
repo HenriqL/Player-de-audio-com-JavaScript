@@ -1,3 +1,23 @@
   
 @import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
+
+
+body{
+    height: 100vh;
+    background-color: #c1c1c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player{
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 375px;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.12);
+}
+.card{
+    box-shadow: none;
+    margin: 0;
+}
